@@ -62,8 +62,11 @@ open up you local host and port
 ### dagshub
 [dagshub](https://dagshub.com/)
 
+```bash
 import dagshub
 dagshub.init(repo_owner='Kiran-Samuel', repo_name='MLflow-project', mlflow=True)
+
+```
 
 Run this to export as env variables:
 
